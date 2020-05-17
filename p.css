@@ -1,0 +1,52 @@
+.g{
+
+margin-left: -1%!important;
+}
+
+
+  #global{
+    background-color: rgba(255, 255, 255, 0.747);
+
+
+    text-align: center;
+  }
+  .tituloExp{
+    padding-top: 30px;
+    font-family: 'Playfair Display', serif;
+
+    text-align: center;
+
+  }
+  .TituloT{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: 600;
+  }
+.izq{
+    text-align: right;
+    border-right: 1px black solid;
+}
+.der{
+    text-align: left;
+
+
+
+}
+.icon{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.c1{
+    width: 100%!important;
+    min-width: 100%!important;
+    padding-bottom: 30px;
+
+}
+
+
+ .row {
+   display: flex;
+   width: 100%;
+ }

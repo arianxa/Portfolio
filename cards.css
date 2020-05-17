@@ -1,0 +1,57 @@
+
+#gallery{
+
+  background-color:rgba(0, 0, 0, 0.822);
+padding-top: 3%;
+}
+.tituloCards{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 600;
+border-bottom: 1px black solid;
+padding-top: 2%;
+
+}
+.tituloProyectos{
+  font-family: 'Playfair Display', serif;
+
+  text-align: center;
+  color:white;
+}
+.pad{
+  padding-bottom: 0!important;
+}
+.card-link{
+color:black
+}
+.card-link:hover{
+
+  color:black
+
+}
+.linea{
+
+  margin-bottom: 1%;
+
+}
+#header {
+    background: url("https://images.unsplash.com/photo-1474249949617-ca9a962c876a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80") center center / cover no-repeat;
+  }
+  section#header h1 {
+   font-weight: bold;
+   letter-spacing: 0.225em;
+   text-shadow: 2px 2px 3px #000;
+  }
+  section#header p {
+   font-weight: medium;
+   text-shadow: 2px 2px 3px #000;
+  }
+
+
+
+
+
+
+
+
+  

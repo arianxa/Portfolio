@@ -1,0 +1,86 @@
+
+  
+  /* Center website */
+ 
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+ 
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  #myBtnContainer{
+      text-align: center;
+      padding-bottom: 2%!important;
+
+  }
+ 
+  /* Style the buttons */
+  .btn {
+  
+    font-family: 'Inconsolata', monospace;
+
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px;
+    
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    border-bottom: 1px white solid;
+  }
+  
+  /* Add a dark background color to the active button 
+  
+  */
+  button:active, button.btn:active {
+    border-bottom: 1px white solid;
+font-weight: 800 !important;
+font-size: larger!important;
+
+
+  }
+
+
+  button:focus, button.btn:focus {
+
+    border-bottom: 1px white solid;
+    font-weight: 800 !important;
+    font-size: larger!important;
+
+
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
