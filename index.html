@@ -40,7 +40,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header Cabecera">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img src="img/a.png" alt="" height="60px" width="">
@@ -76,8 +76,8 @@
 
 
         <section class="Principal background  mx-auto p" >
-            <div class="container ">
-                <div class="row   ">
+            <div class="container containerCabecera ">
+                <div class="row   containerCabecera ">
                     <h1 class="ml5 mx-auto   ">
                         <span class="text-wrapper">
                             <span class="line line1"></span>
@@ -89,7 +89,7 @@
 
 
                     <div class="container">
-                        <h1 class="ml12 mx-auto ">Full Stack Developer</h1>
+                        <h1 class="ml12 mx-auto  ">Full Stack Developer</h1>
                     </div>
                 </div>
             </div>
@@ -100,16 +100,16 @@
 
     </header>
 
-    <section class="bg-yellow" id="about" data-aos=fade-down >
-        <div class="container" data-aos=fade-down>
+    <section class="bg-yellow " id="about" data-aos=fade-down >
+        <div class="container containerCabecera" data-aos=fade-down>
 
 
             <h1 class="tipoTitulo">About me</h1>
 
             <hr width="30%">
         </div>
-        <div class="container ">
-            <div class="row ">
+        <div class="container containerCabecera ">
+            <div class="row containerCabecera ">
                 <div id="img-holder" class="col-md-4 col-sm-12 col-xs-12 " data-aos=fade-down>
                     <img id="img" src="img/descarga.png">
                 </div>
@@ -220,8 +220,23 @@
                 <button class="btn" onclick="filterSelection('react')"> React</button>
 
               </div>
-            <div class="row">
+            <div class="row ml-0">
          
+                <div class="col-lg-4 column c#">
+                    <a href="https://retrogamesclub.cf" class="card-link">
+
+                    <div class="card mb-4">
+                        <img class="card-img-top"
+                            src="img/games2.PNG"
+                            alt="pattern 5"
+                            style="height: 320px;">
+                        <div class="card-body pad">
+                            <h5 class="card-title tituloCards">Retro Games</h5>
+                    
+                        </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4  column javascript">
                     <a  href="http://the-witchnails.host" class="card-link">
                     <div class="card mb-4">
@@ -300,20 +315,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 column react">
-                    <a href="https://github.com/arianxa/AndroidOlorALibro" class="card-link"></a>
-                    <div class="card mb-4">
-                        <img class="card-img-top"
-                            src="img/Captura.PNG"
-                            alt="pattern 6"
-                            style="height: 320px;">
-                        <div class="card-body pad">
-                            <h5 class="card-title tituloCards">Retro Games</h5>
-                            
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+
+           
             </div>
 
             </div> <!-- End of .row -->
@@ -391,7 +395,7 @@
   
 
 
-    <section  data-aos=fade-down id="contacto">
+    <section  data-aos=fade-down id="contacto" >
 
         <h1 class="titulocontacto">Contact</h1>
         <hr width="20%" color="grey">
@@ -399,16 +403,16 @@
 
         <form action="https://formspree.io/pro.arantxa.ordoyo@gmail.com" method="POST" class="cf my-0 pb-4" >
             <div class="half left cf">
-                <input type="text" name="name" id="input-name" placeholder="Name">
-                <input type="text" name="_replyto" id="input-email" placeholder="Email address">
+                <input type="text" name="name" id="input-name" placeholder="Name"  class="SectionContacto">
+                <input type="text" name="_replyto" id="input-email" placeholder="Email address"  class="SectionContacto">
 
             </div>
 
             <div class="half right cf">
                 <!-- your other form fields go here -->
-                <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                <textarea name="message" type="text" id="input-message" placeholder="Message"  class="SectionContacto"></textarea>
             </div>
-            <button type="submit" value="Enviar" id="input-submit"><i class="fa fa-paper-plane"></i> Send </button>
+            <button type="submit" value="Enviar" id="input-submit"><i class="fa fa-paper-plane" class="SectionContacto"></i> Send </button>
 
         </form>
 
