@@ -399,17 +399,24 @@
 
         <h1 class="titulocontacto">Contact</h1>
         <hr width="20%" color="grey">
+                        <!-- <form method="POST"  action="https://formspree.io/pro.arantxa.ordoyo@gmail.com" method="POST" class="cf my-0 pb-4" >-->
+
+         
 
 
-        <form method="POST"  action="https://formspree.io/pro.arantxa.ordoyo@gmail.com" method="POST" class="cf my-0 pb-4" >
+        <form  method="POST" action="https://formsubmit.co/pro.arantxa.ordoyo@gmail.com" class="cf my-0 pb-4" >
             <div class="half left cf">
                 <input type="text" name="name" id="input-name" placeholder="Name"  class="SectionContacto">
-                <input type="text" name="_replyto" id="input-email" placeholder="Email address"  class="SectionContacto">
+                <input type="email" name="email" id="input-email" placeholder="Email address"  class="SectionContacto">
 
             </div>
+            <input type="hidden" name="_autoresponse" value="Gracias por contactarme!.  &nbsp &nbsp
+             Att: Arantxa Ordoyo ">
+
+
+            <input type="hidden" name="_next" value="https://arantxaordoyo.tk/index.html">
 
             <div class="half right cf">
-                <!-- your other form fields go here ds -->
                 <textarea name="message" type="text" id="input-message" placeholder="Message"  class="SectionContacto"></textarea>
             </div>
             <button type="submit" value="Enviar" id="input-submit"><i class="fa fa-paper-plane" class="SectionContacto"></i> Send </button>
@@ -417,7 +424,6 @@
         </form>
 
     </section>
-
 
 
 
